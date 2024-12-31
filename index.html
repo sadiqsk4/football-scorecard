@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Scorecard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="scorecard">
+        <h1>Football Scorecard</h1>
+        <div class="teams">
+            <div class="team" id="team1">
+                <h2>Team A</h2>
+                <p>Score: <span id="score1">0</span></span></p>
+                <button onclick="incrementScore('team1')">Add Point</button>
+            </div>
+            <div class="team" id="team2">
+                <h2>Team B</h2>
+                <p>Score: <span id="score2">0</span></span></p>
+                <button onclick="incrementScore('team2')">Add Point</button>          
+            </div>
+                <button id="reset">Reset Scores</button>
+        </div>
+        <script src="javascript.js"></script>
+</body>
+</html>

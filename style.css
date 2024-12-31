@@ -1,0 +1,54 @@
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+.scorecard {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px 2px rgba(245, 43, 194, 0.2);
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.team { 
+    background: #ffe2fb;
+    padding: 10px;
+    border-radius: 5px;
+    width: 45%;
+}
+
+h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #f10dde;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover { 
+    background-color: #8cbdf1;
+}
+
+#reset {
+    background: #dc3545;
+}
+
+#reset:hover { 
+    background: #9c0615;
+}
